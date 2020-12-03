@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "KNU.Algorithms.LibrarySort": {
+      "commandName": "Project",
+      "commandLineArgs": "input.txt"
+    }
+  }
+}
