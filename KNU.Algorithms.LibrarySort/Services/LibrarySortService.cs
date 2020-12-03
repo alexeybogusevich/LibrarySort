@@ -7,7 +7,7 @@ namespace KNU.Algorithms.LibrarySort.Services
     {
         public static Comparer<T> Comparer { get; set; }
 
-        private const int gap = 1000;
+        private const int gap = 2;
 
         public static void Sort(List<T> sequence)
         {

@@ -66,6 +66,7 @@ namespace KNU.Algorithms.LibrarySort.Services
                     words.AddRange(reader.ReadLine().Split(" "));
                 }
 
+                LibrarySortService<string>.Comparer = Comparer<string>.Default;
                 LibrarySortService<string>.Sort(words);
 
                 FileManager.WriteToFile(filesCount, words);
